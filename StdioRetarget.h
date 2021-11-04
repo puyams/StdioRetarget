@@ -6,6 +6,8 @@
 #include "main.h"
 #include "stm32f4xx_my_uart.h"
 
-extern UART_HandleTypeDef huart2;
+#define DebugUARTStruct huart2   // Replace your UART debug structure (huartx) here
+
+extern UART_HandleTypeDef DebugUARTStruct; 
 
 #endif /* __STDIORETARGET_H */
