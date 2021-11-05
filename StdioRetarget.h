@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 #include "main.h"
-#include "stm32f4xx_my_uart.h"
 
 #define DebugUARTStruct huart2   // Replace your UART debug structure (huartx) here
 
